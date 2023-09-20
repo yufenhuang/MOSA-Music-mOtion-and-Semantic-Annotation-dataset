@@ -4,11 +4,9 @@
 
 
 
-
-
+<p align="center">
 https://github.com/yufenhuang/MOSA-Music-mOtion-and-Semantic-Annotation-dataset/assets/42167635/13426b3c-1133-4a4d-96cd-860e6b772b1f
-
-
+</p>
 
 
 

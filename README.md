@@ -2,6 +2,13 @@
 
 ![alt text](https://github.com/yufenhuang/MOSA-Music-mOtion-and-Semantic-Annotation-dataset/blob/main/figure/dataset.png)
 
+
+
+![violin-elgar](https://github.com/yufenhuang/MOSA-Music-mOtion-and-Semantic-Annotation-dataset/assets/42167635/bff2e1dc-aa7a-471b-bd4c-f7bab0748a49)
+
+
+
+
 MOSA dataset is a large-scale music dataset containing 742 professional piano and violin solo music performances with 23 musicians (> 30 hours, and > 570 K notes). This dataset features following types of data
 - High-quality 3-D motion capture data
 - Audio recordings

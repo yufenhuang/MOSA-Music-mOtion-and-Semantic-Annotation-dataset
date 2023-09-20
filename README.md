@@ -4,8 +4,8 @@
 
 MOSA dataset is a large-scale music dataset containing 742 professional piano and violin solo music performances with 23 musicians (> 30 hours, and > 570 K notes). This dataset features following types of data
 - High-quality 3-D motion capture data
--  audio recordings
-- manual semantic annotations
+- Audio recordings
+- Manual semantic annotations
 
 
 # 1. 3-D motion capture data

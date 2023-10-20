@@ -53,21 +53,21 @@ descriptions
 
 # Data Formats
 ```
-MOSA_dataset/
+MOSA_dataset/  
 ├──instrument/
    ├──piece/
-          ├──performer/
-                     ├──trial/
-                            ├──audio.wav
-                            ├──motion.csv
-                            ├──motion_norm.csv
-                            ├──annotation/
-                                        ├──sheet.pdf
-                                        ├──sheet_annotation.pdf
-                                        ├──sheet.xml
-                                        ├──annotations/
-                                                     ├──align_notetime.csv
-                                                     ├──...
+      ├──performer/
+         ├──trial/
+            ├──audio.wav
+            ├──motion.csv
+            ├──motion_norm.csv
+            ├──annotation/
+               ├──sheet.pdf
+               ├──sheet_annotation.pdf
+               ├──sheet.xml
+               ├──annotations/
+                  ├──align_notetime.csv
+                  ├──...
 
 ```
 * instrument: there are three folders ``ev``, ``yv`` and ``yp``. ``e`` and ``y`` indicate that the data is collected from The University of Edinburgh or National Yang-Ming University. ``v`` and ``p`` represent violin and piano.

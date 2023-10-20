@@ -71,7 +71,7 @@ MOSA_dataset/
 
 ```
 * instrument: there are three folders ``ev``, ``yv`` and ``yp``. ``e`` and ``y`` indicate that the data is collected from The University of Edinburgh or National Yang-Ming University. ``v`` and ``p`` represent violin and piano.
-* piece: the code name of each piece. please see the [pieces](https://github.com/yufenhuang/MOSA-Music-mOtion-and-Semantic-Annotation-dataset/edit/main/MOSA-dataset/dataset.md#pieces) part above. e.g. ``ba1``
+* piece: the code name of each piece. please see the pieces part above. e.g. ``ba1``
 * performer: the number of performer which ranged from 01 to 10. e.g. ``ev01``
 * trial: the number of trial which ranged from t1 to t3.  
 

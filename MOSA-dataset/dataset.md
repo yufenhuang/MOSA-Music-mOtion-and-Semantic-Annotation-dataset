@@ -72,7 +72,7 @@ MOSA_dataset/
 ```
 * instrument: there are three folders ``ev``, ``yv`` and ``yp``. ``e`` and ``y`` indicate that the data is collected from The University of Edinburgh or National Yang-Ming University. ``v`` and ``p`` represent violin and piano.
 * piece: the code name of each piece. please see the pieces part above. e.g. ``ba1``
-* performer: the number of performer which ranged from 01 to 10. e.g. ``ev01``
-* trial: the number of trial which ranged from t1 to t3.  
+* performer: the number of performer ranged from 01 to 10. e.g. ``ev01``
+* trial: the number of trial ranged from t1 to t3.  
 
 Note that all the files have a prefix ``piece_performer_trial``. For example, the __audio__ of the __first trial__ recorded by the __number one participant__ from __The University of Edinburgh__ with __violin__ piece __Bach Well Tempered Clavier Prelude No.1__ is represnted as ``ba1_ev01_t1_audio.wav``

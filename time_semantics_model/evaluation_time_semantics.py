@@ -854,7 +854,7 @@ if __name__ == '__main__':
 
     beat_window_size = 0.07 
     downbeat_window_size = 0.07 
-    phrase_window_size = 0.7*2
+    phrase_window_size = 0.7
 
     beat_max_bpm = 180
     downbeat_max_bpm = 90

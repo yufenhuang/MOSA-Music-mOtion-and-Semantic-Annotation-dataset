@@ -31,7 +31,7 @@ follows the Plug-In Gait Full-body model in Visual-3D's official documention.
 
 ## Music semantic annotation
 
-In MOSA dataset, we assemble high-quality manual-crafted semantic annotations for music performance. The statistics of annotations in MOSA dataset is shown in the Figure , and the collection of music annotations includes:
+In MOSA dataset, we assemble high-quality manual-crafted semantic annotations for music performance. The statistics of annotations in MOSA dataset are shown in the Figure , and the collection of music annotations includes:
 
 - **Note annotations:** pitch name (e.g. C4), midi number, note onset time, note offset time, note duration.
 - **Beat/downbeat annotations:** the position of beat and downbeat, beat time, downbeat time.
@@ -43,13 +43,13 @@ In MOSA dataset, we assemble high-quality manual-crafted semantic annotations fo
 ![alt text](https://github.com/yufenhuang/MOSA-Music-mOtion-and-Semantic-Annotation-dataset/blob/main/figure/annot.png)
 
 ## Audio recordings
-Audio recordings synchronized with 3-D body motion and music semantic annotation
+This dataset provides audio recordings synchronized with 3-D body motion and music semantic annotation
 
 # Usage Guidelines
 
-This project is part of the research project 'Deep learning models for non-verbal communication: Apply on music semantics' of National Science and Technology Council, Taiwan. The MOSA dataset is released under the Creative Commons Public Domain [CC4](https://creativecommons.org/licenses/by/4.0/) license. Ensure that your use of the MOSA dataset does not breach any legislation, notably concerning data protection, defamation or copyright. The MOSA dataset is restricted to be used for the research regarding the body motion, audio performance, and semantics for violin and piano performances in Classical music. The authors make no representations or warranties for any extended use of data. To see detailed information about the dataset, please go to [here](https://github.com/yufenhuang/MOSA-Music-mOtion-and-Semantic-Annotation-dataset/blob/main/MOSA-dataset/dataset.md)
+This project is a part of the research project 'Deep learning models for non-verbal communication: Apply on music semantics' of National Science and Technology Council, Taiwan. The MOSA dataset is released under the Creative Commons Public Domain [CC4](https://creativecommons.org/licenses/by/4.0/) license. Ensure that your use of MOSA dataset does not breach any legislation, notably concerning data protection, defamation or copyright. The MOSA dataset is restricted to be used for the research regarding the body motion, audio performance, and semantics for violin and piano performances in Classical music. The authors make no representations or warranties for any extended use of data. To see detailed information about the dataset, please go to [here](https://github.com/yufenhuang/MOSA-Music-mOtion-and-Semantic-Annotation-dataset/blob/main/MOSA-dataset/dataset.md)
 
-This project provide implement codes for 3 topics:
+This project provides implement codes for 3 topics:
 - **Musician's body motion generation from audio**
 - **Time semantics recognition**
 - **Expressive semantics recognition**

@@ -1,12 +1,8 @@
-import sys, joblib, copy, csv, os
-import math
+import joblib, csv, os
 import numpy as np
 import pandas as pd
 import scipy.signal
-from scipy.io import wavfile
 import matplotlib.pyplot as plt
-import collections
-import random
 import sklearn.preprocessing
 import librosa
 

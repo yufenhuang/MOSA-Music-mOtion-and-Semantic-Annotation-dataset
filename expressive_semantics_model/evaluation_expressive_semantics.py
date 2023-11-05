@@ -1,15 +1,13 @@
 # supress numpy future warning
 import warnings
 warnings.filterwarnings('ignore')
-import librosa, os, sys, pickle, mir_eval, joblib, datetime
+import os, sys, joblib, datetime
 import numpy as np
 import pandas as pd
 import random
 import matplotlib.pyplot as plt
 import tensorflow as tf
 import keras_nlp
-import scipy.signal
-from sklearn import preprocessing
 from tensorflow import keras
 from keras import layers
 

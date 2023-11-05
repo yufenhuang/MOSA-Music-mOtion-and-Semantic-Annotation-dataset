@@ -1,24 +1,22 @@
 
-import os, pickle, sys, copy, csv
-import json, scipy
+import os, sys, copy, csv
+import scipy
 import joblib
 import numpy as np
 import matplotlib
 import matplotlib.pyplot as plt
 import matplotlib.animation as animation
 from mpl_toolkits.mplot3d import axes3d
-import mir_eval
-import time, datetime
+import datetime
 import pandas as pd
 import sklearn.preprocessing
 
-import moviepy
-from moviepy.editor import VideoFileClip, AudioFileClip, concatenate_videoclips
-import ffmpy3
+from moviepy.editor import VideoFileClip, AudioFileClip
 import librosa
 import soundfile as sf 
 import tensorflow as tf
 from tensorflow import keras
+from argparse import ArgumentParser
 
 
 # show version info
@@ -1703,15 +1701,23 @@ def plot_animation(plot_data_dict):
     
 
 
- 
-
 
 if __name__ == '__main__':
 
     # Define test audio 
     # This scipt is for violin animation only (not for piano)
     # Please select an audio example from 'yv' and 'ev' subsets ('yp' is a piano subset)
-    test_audio_name = 'de2_yv10_t1_audio.wav' # define audio_name
+    # test_audio_name = 'de2_yv10_t1_audio.wav' # define audio_name
+    parser = ArgumentParser()
+    parser.add_argument(
+        "audiofilename", 
+        nargs="?", 
+        help="audio file name, ex:de2_yv10_t1_audio.wav", 
+        default="de2_yv10_t1_audio.wav")
+
+    args = parser.parse_args()
+    test_audio_name = args.audiofilename
+
 
     # Define test dataset
     # Select from the folders 'MOSA_dataset' or 'sample_data'

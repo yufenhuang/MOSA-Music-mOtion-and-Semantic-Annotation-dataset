@@ -64,6 +64,13 @@ This project provide implement codes for 3 topics:
 `pip install -r requirement.txt`
 
 ## Musician's body motion generation from audio
+
+
+
+https://github.com/yufenhuang/MOSA-Music-mOtion-and-Semantic-Annotation-dataset/assets/42167635/9374a3a6-8af0-4bfc-a63b-c2b250906fa2
+
+
+
 - **Training from scratch**
 
   To train a body motion generation model from scratch, please run the following commands.

@@ -1,5 +1,10 @@
 # MOSA: Music mOtion and Semantic Annotation dataset
 
+MOSA dataset is a large-scale music dataset containing 742 professional piano and violin solo music performances with 23 musicians (> 30 hours, and > 570 K notes). This dataset features following types of data
+- **High-quality 3-D motion capture data**
+- **Audio recordings**
+- **Manual semantic annotations**
+
 This is the implementation of the paper:
 Huang et al., MOSA: Music Motion with Semantic Annotation Dataset for Multimedia Anaysis and Generation.
 
@@ -16,13 +21,6 @@ https://github.com/yufenhuang/MOSA-Music-mOtion-and-Semantic-Annotation-dataset/
 
 </p>
 
-
-
-
-MOSA dataset is a large-scale music dataset containing 742 professional piano and violin solo music performances with 23 musicians (> 30 hours, and > 570 K notes). This dataset features following types of data
-- **High-quality 3-D motion capture data**
-- **Audio recordings**
-- **Manual semantic annotations**
 
 
 ### 3-D motion capture data

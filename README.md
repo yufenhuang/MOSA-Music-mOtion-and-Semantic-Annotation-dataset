@@ -92,13 +92,13 @@ This project provide implement codes for 3 topics:
 ## Time semantics recognition
 - **Training from scratch**
 
- To train a time semantics recognition model from scratch, please run the following commands.
-
- The trained model will be saved to the folder `\time_semantics_model\`
-  ```
-  python time_semantics_model\data_preprocessing_time_semantics.py
-  python time_semantics_model\train_model_time_semantics.py
-  ```
+   To train a time semantics recognition model from scratch, please run the following commands.
+  
+   The trained model will be saved to the folder `\time_semantics_model\`
+    ```
+    python time_semantics_model\data_preprocessing_time_semantics.py
+    python time_semantics_model\train_model_time_semantics.py
+    ```
 
 - **Evaluation**
 
@@ -125,7 +125,6 @@ This project provide implement codes for 3 topics:
   ```
   python expressive_semantics_model\data_preprocessing_expressive_semantics.py
   python expressive_semantics_model\evaluation_expressive_semantics.py
-  
   ```
   
  

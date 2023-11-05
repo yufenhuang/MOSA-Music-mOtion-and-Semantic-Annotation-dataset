@@ -73,7 +73,7 @@ https://github.com/yufenhuang/MOSA-Music-mOtion-and-Semantic-Annotation-dataset/
 
   To train a body motion generation model from scratch, please run the following commands.
 
-  The trained model will be saved to the folder `\motion_generation_model\`
+  The trained model will be saved to the folder `\motion_generation_model\motion_generation_transformer\`
   
   ```
   python motion_generation_model\data_preprocessing_motion_generation.py
@@ -99,7 +99,7 @@ https://github.com/yufenhuang/MOSA-Music-mOtion-and-Semantic-Annotation-dataset/
 
    To train a time semantics recognition model from scratch, please run the following commands.
   
-   The trained model will be saved to the folder `\time_semantics_model\`
+   The trained model will be saved to the folder `\time_semantics_model\time_semantics_transformer\`
     ```
     python time_semantics_model\data_preprocessing_time_semantics.py
     python time_semantics_model\train_model_time_semantics.py
@@ -118,7 +118,7 @@ https://github.com/yufenhuang/MOSA-Music-mOtion-and-Semantic-Annotation-dataset/
 
   To train a expressive semantics recognition model from scratch, please run the following commands.
 
-  The trained model will be saved to the folder `\expressive_semantics_model\`
+  The trained model will be saved to the folder `\expressive_semantics_model\expression_semantics_transformer\`
   ```
   python expressive_semantics_model\data_preprocessing_expressive_semantics.py
   python expressive_semantics_model\train_model_expressive_semantics.py

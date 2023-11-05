@@ -23,13 +23,13 @@ https://github.com/yufenhuang/MOSA-Music-mOtion-and-Semantic-Annotation-dataset/
 
 
 
-### 3-D motion capture data
+## 3-D motion capture data
 The 3-D motion capture data in this dataset are recorded using Qualisys and Vicon 3-D motion capture system. The original coordinates of 34 body/instrument markers on the x-, y-, and z- axes are provided. The body marker placement
 follows the Plug-In Gait Full-body model in Visual-3D's official documention.
 
 ![alt text](https://github.com/yufenhuang/MOSA-Music-mOtion-and-Semantic-Annotation-dataset/blob/main/figure/mocap.png)
 
-### Music semantic annotation
+## Music semantic annotation
 
 In MOSA dataset, we assemble high-quality manual-crafted semantic annotations for music performance. The statistics of annotations in MOSA dataset is shown in the Figure , and the collection of music annotations includes:
 
@@ -42,7 +42,7 @@ In MOSA dataset, we assemble high-quality manual-crafted semantic annotations fo
 
 ![alt text](https://github.com/yufenhuang/MOSA-Music-mOtion-and-Semantic-Annotation-dataset/blob/main/figure/annot.png)
 
-### Audio recordings
+## Audio recordings
 Audio recordings synchronized with 3-D body motion and music semantic annotation
 
 # Usage Guidelines

@@ -8,8 +8,8 @@ MOSA dataset is a large-scale music dataset containing 742 professional piano an
 This is the implementation of the paper:
 Huang et al., MOSA: Music Motion with Semantic Annotation Dataset for Multimedia Anaysis and Generation.
 
-**Note:** This paper is under peer-review process, and only a small portion of sample data are released in the `\sample_data\` folder.
-The full dataset will be avaiable in the `\MOSA-data\` folder when the paper is officially published.
+**Note:** This paper is under peer-review process, and only a small portion of sample data are released in the `.\sample_data\` folder.
+The full dataset will be avaiable in the `.\MOSA-data\` folder when the paper is officially published.
 
 ![alt text](https://github.com/yufenhuang/MOSA-Music-mOtion-and-Semantic-Annotation-dataset/blob/main/figure/dataset.png)
 
@@ -73,7 +73,7 @@ https://github.com/yufenhuang/MOSA-Music-mOtion-and-Semantic-Annotation-dataset/
 
   To train a body motion generation model from scratch, please run the following commands.
 
-  The trained model will be saved to the folder `\motion_generation_model\motion_generation_transformer\`
+  The trained model will be saved to the folder `.\motion_generation_model\motion_generation_transformer\`
   
   ```
   python motion_generation_model\data_preprocessing_motion_generation.py
@@ -82,9 +82,9 @@ https://github.com/yufenhuang/MOSA-Music-mOtion-and-Semantic-Annotation-dataset/
 
 - **Inference**
 
-  To make the body motion video, please select an audio file from `\sample_data\` folder, and run the following commands.
+  To make the body motion video, please select an audio file from `.\sample_data\` folder, and run the following commands.
 
-  The generated video will be saved to the folder `\motion_generation_model\`
+  The generated video will be saved to the folder `.\motion_generation_model\`
   
   ```
   python motion_generation_model\inference_motion_generation.py audiofilename
@@ -99,7 +99,7 @@ https://github.com/yufenhuang/MOSA-Music-mOtion-and-Semantic-Annotation-dataset/
 
    To train a time semantics recognition model from scratch, please run the following commands.
   
-   The trained model will be saved to the folder `\time_semantics_model\time_semantics_transformer\`
+   The trained model will be saved to the folder `.\time_semantics_model\time_semantics_transformer\`
     ```
     python time_semantics_model\data_preprocessing_time_semantics.py
     python time_semantics_model\train_model_time_semantics.py
@@ -118,7 +118,7 @@ https://github.com/yufenhuang/MOSA-Music-mOtion-and-Semantic-Annotation-dataset/
 
   To train a expressive semantics recognition model from scratch, please run the following commands.
 
-  The trained model will be saved to the folder `\expressive_semantics_model\expression_semantics_transformer\`
+  The trained model will be saved to the folder `.\expressive_semantics_model\expression_semantics_transformer\`
   ```
   python expressive_semantics_model\data_preprocessing_expressive_semantics.py
   python expressive_semantics_model\train_model_expressive_semantics.py

@@ -113,7 +113,7 @@ https://github.com/yufenhuang/MOSA-Music-mOtion-and-Semantic-Annotation-dataset/
   python time_semantics_model\evaluation_time_semantics.py
   ```
 
-  ## Expressive semantics recognition
+## Expressive semantics recognition
 - **Training from scratch**
 
   To train a expressive semantics recognition model from scratch, please run the following commands.

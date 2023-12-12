@@ -1,5 +1,8 @@
+**Note:** This paper is under peer-review process, and only a small portion of sample data are released in the `.\sample_data\` folder currently.
+The full dataset will be avaiable in the `.\MOSA-data\` folder when the paper is officially published.
+
 # Dataset Content
-MOSA mainly collected violin and piano performaces. The violin performances were performed by the participants in The University of Edinburgh and National Yang-Ming University, and the piano performances were performed by the participants in National Yang-Ming University. Each piece was performed 1-3 trials by the participants. We aligned the recorded audio and 3-D motion data, and several musical infomation were annotated by the experts for each piece. 
+MOSA mainly collected violin and piano performaces. The violin performances were performed by the participants in The University of Edinburgh (the UK) (ev01 - ev05) and National Yang Ming Chiao Tung University (Taiwan) (yv01 - yv10), and the piano performances were performed by the participants in National Yang Ming Chiao Tung University (Taiwan) (yp01 - yp08). Each piece was performed 1-3 trials by the participants. We aligned the recorded audio and 3-D motion data, and several musical infomation were annotated by the experts for each piece. 
 The released dataset accordingly includes different types of data:
 * **Audio** - `audio.wav`
 * **Motion data** and **normalized motion data** - `motion.csv`, `motion_norm.csv`
@@ -24,7 +27,7 @@ We list the violin and piano pieces used in this dataset separately in the follo
 |de1| 鄧雨賢(Deng Yu Sian) ⾬夜花                            	| 1 | full      |
 |de2| 鄧雨賢(Deng Yu Sian) 望春風      	                      | 1 | full      |
 
-****Note that** the four segments were fully collected by the particpants in National Yang-Ming University only. The data collected in The University of Edinburgh merely contains one segment - be4.
+****Note that** the four segments were fully collected by the particpants in National Yang Ming Chiao Tung University (yv01 - yv10) only. The data collected in The University of Edinburgh (ev01 - ev05) only contains one segment (be4).
 
 ### Piano
 |Code | Name | Segments | Range	|
@@ -70,7 +73,7 @@ MOSA_dataset/
                   ├──...
 
 ```
-* instrument: there are three folders ``ev``, ``yv`` and ``yp``. ``e`` and ``y`` indicate that the data is collected from The University of Edinburgh or National Yang-Ming University. ``v`` and ``p`` represent violin and piano.
+* instrument: there are three folders ``ev``, ``yv`` and ``yp``. ``e`` and ``y`` indicate that the data is collected from The University of Edinburgh (the UK) or National Yang Ming Chiao Tung University (Taiwan). ``v`` and ``p`` represent violin and piano.
 * piece: the code name of each piece. please see the pieces part above. e.g. ``ba1``
 * performer: the number of performer ranged from 01 to 10. e.g. ``ev01``
 * trial: the number of trial ranged from t1 to t3.  

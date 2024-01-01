@@ -1659,7 +1659,7 @@ def plot_animation(plot_data_dict):
 
     body_ani = animation.FuncAnimation(
         fig, animate_body_func, 
-        interval= 40,
+        interval= 1000/40,
         frames=num_time_frame)
 
     # save animation

@@ -135,7 +135,7 @@ def get_note_annot_dict_from_folder(annot_folder, name_1, name_2, name_3):
                 dyn_offset = express_item['offset']
 
                 for note_inx in range(len(note_annot_dict)):
-                    if dyn_onset <= note_annot_dict[note_inx]['score_position'] < dyn_offset:
+                    if dyn_onset <= note_annot_dict[note_inx]['score_position'] and note_annot_dict[note_inx]['score_position'] < dyn_offset:
                         note_annot_dict[note_inx]['dyn'] = dyn_name
 
         # arti annot
@@ -145,7 +145,7 @@ def get_note_annot_dict_from_folder(annot_folder, name_1, name_2, name_3):
                 arti_offset = express_item['offset']
 
                 for note_inx in range(len(note_annot_dict)):
-                    if arti_onset <= note_annot_dict[note_inx]['score_position'] < arti_offset:
+                    if arti_onset <= note_annot_dict[note_inx]['score_position'] and note_annot_dict[note_inx]['score_position'] < arti_offset:
                         note_annot_dict[note_inx]['articu'] = arti_name
   
     return note_annot_dict, beat_list, downbeat_list, phrase_list
@@ -205,26 +205,26 @@ def convert_note_to_time_annot(
 
         # get frame dyn & arti label
         for note in note_annot_dict:
-            if note['onset'] <= time < note['offset']:
+            if note['onset'] <= time and time < note['offset']:
                 frame['dyn'] = note['dyn']
                 frame['arti'] = note['articu']
             
         # get frame beat, downbeat, phrase label
         for beat_time in perf_beat_time_list:
-            if beat_time - beat_aug_time <= time <= beat_time + beat_aug_time:
+            if beat_time - beat_aug_time <= time and time <= beat_time + beat_aug_time:
                 frame['beat'] = 1
         
         for downbeat_time in perf_downbeat_time_list:
-            if downbeat_time - downbeat_aug_time <= time <= downbeat_time + downbeat_aug_time:
+            if downbeat_time - downbeat_aug_time <= time and time <= downbeat_time + downbeat_aug_time:
                 frame['downbeat'] = 1
         
         for phrase_time in perf_phrase_time_list:
-            if phrase_time - phrase_aug_time <= time <= phrase_time + phrase_aug_time:
+            if phrase_time - phrase_aug_time <= time and time <= phrase_time + phrase_aug_time:
                 frame['phrase'] = 1
         
         # get frame pitch
         for note in note_annot_dict:
-            if note['onset'] <= time < note['offset']:
+            if note['onset'] <= time and time < note['offset']:
                 frame['pitch'] = note['note']
                 frame['midi'] = librosa.note_to_midi(note['note'])
 
